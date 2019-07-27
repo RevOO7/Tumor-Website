@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results</title>
+</head>
+<body>
+	{% if result != None %}
+		<img src="data:image/png;base64,{{ result }}" width="1000" height="600">
+	{% endif %}
+<!-- 	<img src="{{ url_for('static', filename = 'results/pred.png') }}"/> -->
+</body>
+</html>
